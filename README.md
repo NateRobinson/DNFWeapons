@@ -25,4 +25,10 @@
   【账号： test，密码： 123456】
 
 ## 5.DWeapons 为Android客户端，
-  需要到DWeapons\app\src\main\java\com\gu\dw\MainActivity.java 类的oncreate方法“mWebView.loadUrl("http://xxxx:8080");”将xxxx改成client的ip地址再打包即可安装到安卓手机上体验。
+  需要到DWeapons\app\src\main\java\com\gu\dw\MainActivity.java 类的oncreate方法
+  
+  ```groovy
+  mWebView.loadUrl("http://xxxx:8080");
+  ```
+  
+  将xxxx改成client的ip地址再打包即可安装到安卓手机上体验。
